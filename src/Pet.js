@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import HobbyList from './HobbyList';
 import './Pet.css';
 
 class Pet extends Component {
@@ -11,7 +12,7 @@ class Pet extends Component {
                 <img src="https://github.com/tigarcia/Moxie/raw/master/moxie.png"
                     alt="Moxie my cat"/> 
                 <h5 style={{fontSize: '2em', margin: '2px', }}>Hobbies:</h5>
-                
+                <HobbyList />
             </div> 
         );
     }
