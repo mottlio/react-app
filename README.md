@@ -33,6 +33,15 @@ export default App; (in app.js)
 import App from './App' (in index.js)
 
 when not exported as default: `export { App };`
+```
+## Props
+
+immutable data that can be stored and accessed inside the render.
+
+NEVER EVER change this.props in your component
+
+
+
 
 
 
