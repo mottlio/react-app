@@ -1,3 +1,52 @@
+
+## Using the create-react-app npm package
+```
+sudo npm install -g create-react-app
+```
+then
+```
+create-react-app appName
+```
+then
+```
+cd appName
+```
+
+### Several important commands:
+
+- npm start: starts the server
+- npm run build: prepare code for production
+- npm test: runs the tests
+- npm run eject: puts all the default webpack settings in the environment file so that they can be changed 
+
+## Import statements
+
+- import a component from another file
+- export a component from a file
+- use export default vs non-default export
+
+at top of each js file:
+```
+import React, { Component } from 'react'; --> needs curly braces because not exported by default
+
+export default App; (in app.js)
+import App from './App' (in index.js)
+
+when not exported as default: `export { App };`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
